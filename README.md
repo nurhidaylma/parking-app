@@ -3,12 +3,13 @@
 The Parking Lot Management System is a simple application to manage a parking lot for cars, specifically designed to handle the operations of parking, retrieving, and generating reports about parked vehicles. The system is implemented in Go and does not use a traditional database; instead, it uses a file-based repository for data storage.
 
 ## Features
-1. Register Vehicle: Register a vehicle entering the parking lot and assign it a parking slot.
-2. Unregister Vehicle: Calculate parking fees and vacate the slot upon vehicle exit.
-3. Generate Report: Obtain a summary of the number of vehicles by type.
-4. Get Vehicles by Color: List vehicle numbers filtered by their color.
+1. *Register Vehicle*: Register a vehicle entering the parking lot and assign it a parking slot.
+2. *Unregister Vehicle*: Calculate parking fees and vacate the slot upon vehicle exit.
+3. *Generate Report*: Obtain a summary of the number of vehicles by type.
+4. *Get Vehicles by Color*: List vehicle numbers filtered by their color.
 
 ## Project Structure
+```plaintext
 parking-lot/
 ├── config/
 │   └── parking_lots.json             # Storage of parking lots
