@@ -30,6 +30,7 @@ parking-lot/
 │   └── transport/
 │       └── http.go                   # HTTP handlers      
 └── go.mod                            # Go module file
+```
 
 ## Setup
 
